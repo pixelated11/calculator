@@ -11,4 +11,4 @@ g++ <filename> -static -static-libgcc -static-libstdc++ -o calculator.exe
 ```
 <br>
 After you've done that, the executable named calculator.exe should be in the same directory. You can run it and enjoy calculating!
-**Note** ```<filename>``` is the .cpp file name.
+Note: `filename` is the .cpp file name.
