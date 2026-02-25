@@ -9,3 +9,4 @@ If you want to compile the code, download the .cpp file yourself, then place it 
 ```g++ <filename> -static -static-libgcc -static-libstdc++ -o calculator.exe```
 <br>
 After you've done that, the executable named calculator.exe should be there. You can run it and enjoy calculating!
+**Note:** <filename> is the .cpp file name.
