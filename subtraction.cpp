@@ -4,23 +4,22 @@
 using namespace std;
 
 int main() {
-    const string programName = "Division calculator";
+    const string programName = "Addition calculator";
     cout << "Welcome to the program: " << programName << endl;
     std::this_thread::sleep_for(std::chrono::seconds(2));
-    cout << "Please enter the x that will be multiplied with y" << endl;
+    cout << "Please enter the x that will be subtracted with y" << endl;
     int x, y;
     int sum;
     cin >> x;
-    cout << "Enter the y." << endl;
+    cout << "Enter the Y.";
     cin >> y;
-    cout << "Calculating final results... (IF ANY NUMBER EXCEEDS 32-BIT SIGNED VALUE, PROGRAM WILL BUG OUT.)" << endl;
-    sum = x * y;
+    cout << "Calculating difference... (IF ANY NUMBER EXCEEDS 32-BIT SIGNED INTEGER, PROGRAM WILL BUG OUT.)";
+    sum = x + y;
     std::this_thread::sleep_for(std::chrono::seconds(2));
-    cout << "Final result: " << sum << endl;
+    cout << "Difference is " << sum << endl;
     cout << "\nPress Enter to exit...";
     cin.ignore();
     cin.get();
 
     return 0;
 }
-

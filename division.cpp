@@ -13,7 +13,7 @@ int main() {
     cin >> x;
     cout << "Enter the y." << endl;
     cin >> y;
-    cout << "Calculating final results..." << endl;
+    cout << "Calculating final results... (IF ANY NUMBER IS ABOVE 32-BIT SIGNED INTEGER, PROGRAM WILL BUG OUT.)" << endl;
     sum = x / y;
     std::this_thread::sleep_for(std::chrono::seconds(2));
     cout << "Final result: " << sum << endl;
